@@ -28,8 +28,9 @@ It combines traditional NLP (triplet extraction, clustering) with modern LLMs (F
    .\venv\Scripts\Activate.ps1
    
 If you get a PowerShell policy error:
-
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+ 
+   ```powershell
+   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 
 Install dependencies
