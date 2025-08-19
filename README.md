@@ -26,6 +26,7 @@ It combines traditional NLP (triplet extraction, clustering) with modern LLMs (F
    cd "C:\Users\YourName\Documents\LLM_Project"
    python -m venv venv
    .\venv\Scripts\Activate.ps1
+   
 If you get a PowerShell policy error:
  ```powershell
    Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
