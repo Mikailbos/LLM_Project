@@ -28,7 +28,7 @@ It combines traditional NLP (triplet extraction, clustering) with modern LLMs (F
    .\venv\Scripts\Activate.ps1
 If you get a PowerShell policy error:
  ```powershell
-Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 3. Install dependencies
 python -m pip install --upgrade pip setuptools wheel
@@ -45,13 +45,13 @@ Add credits to your account (the GPT API is paid)
 
 Set your key in PowerShell before running the pipeline:
  ```powershell
-setx OPENAI_API_KEY "your_api_key_here"
+   setx OPENAI_API_KEY "your_api_key_here"
 
 ## Running the Pipeline
 
 To run the full pipeline from start to finish:
 
 ```powershell
-python run_pipeline.py
+   python run_pipeline.py
 
 
