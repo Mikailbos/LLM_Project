@@ -33,7 +33,7 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 
 Install dependencies
-```powershell
+
 python -m pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
@@ -47,6 +47,7 @@ Get your key from OpenAI website : https://platform.openai.com/docs/overview
 Add credits to your account (the GPT API is paid)
 
 Set your key in PowerShell before running the pipeline:
+
  ```powershell
    setx OPENAI_API_KEY "your_api_key_here"
 
