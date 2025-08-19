@@ -41,7 +41,7 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 To use GPT-4 you need an OpenAI API key:
 
-1. **Get your key from the OpenAI website**
+1. **Get your key from the OpenAI website** https://platform.openai.com/docs/overview
 2. **Add credits to your account (the GPT API is paid)**
 3. **Set your key in PowerShell before running the pipeline:**
 
