@@ -18,7 +18,7 @@ It combines traditional NLP (triplet extraction, clustering) with modern LLMs (F
 
 ## Installation (Windows fresh setup)
 
-1. **Install Python 3.10+**  
+1. **Install Python 3.11+**  
    👉 [Download from python.org](https://www.python.org/downloads/)
 
 2. **Open PowerShell and create a virtual environment**
