@@ -34,6 +34,7 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
    ```powershell
    python -m pip install --upgrade pip setuptools wheel
    pip install -r requirements.txt
+   pip install --upgrade spacy thinc packaging
    python -m spacy download en_core_web_sm
    python -m textblob.download_corpora
 ---
