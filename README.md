@@ -47,6 +47,6 @@ setx OPENAI_API_KEY "your_api_key_here"
 
 ## Running the Pipeline
 
-in PowerShell set:
 python run_pipeline.py
+
 
