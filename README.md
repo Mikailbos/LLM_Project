@@ -52,7 +52,7 @@ To use GPT-4 you need an OpenAI API key:
 ## Running the Pipeline
 
 **To run the full pipeline from start to finish:**
-
+```powershell
 python run_pipeline.py
 
 
