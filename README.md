@@ -31,6 +31,8 @@ If you get a PowerShell policy error:
 ```powershell
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
+---
+
 3. Install dependencies
 ```powershell
 python -m pip install --upgrade pip setuptools wheel
