@@ -45,7 +45,7 @@ To use GPT-4 you need an OpenAI API key:
 1. **Get your key from the OpenAI website** https://platform.openai.com/docs/overview
 2. **Add credits to your account (the GPT API is paid)**
 3. **Set your key in PowerShell before running the pipeline:**
-
+   ```powershell
    setx OPENAI_API_KEY "your_api_key_here"
 ---
 
