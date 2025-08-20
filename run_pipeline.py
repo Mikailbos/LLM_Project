@@ -1,7 +1,8 @@
 import subprocess
 import sys
 
-scripts = [
+scripts = ["save_sp500_ticker_mapping.py",
+    "data_collection.py",
     "preprocessing.py",
     "nlp_processing.py",
     "triplet_extraction.py",
@@ -12,7 +13,8 @@ scripts = [
     "results_stats.py",
     "compare_saved.py",
     "gpt_sentiment_charts.py",
-    "heatmap.py"
+    "heatmap.py",
+    "visualise_embeddings.py"
     ]
 
 print("🔁 Starting full dissertation pipeline...\n")
