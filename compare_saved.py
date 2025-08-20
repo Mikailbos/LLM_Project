@@ -10,7 +10,7 @@ from difflib import SequenceMatcher
 # === Config ===
 GPT_FILE = "data_output/gpt_signals_combined.json"
 FINBERT_FILE = "data_output/finbert_signals_combined.json"
-RESULTS_DIR = "results"
+RESULTS_DIR = "evaluation_results"
 FUZZY_MATCH_THRESHOLD = 0.9  # 90% similarity to match titles
 
 os.makedirs(RESULTS_DIR, exist_ok=True)
