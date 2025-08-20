@@ -20,11 +20,13 @@ It combines traditional NLP (triplet extraction, clustering) with modern LLMs (F
 
 1. **Install Python 3.11+**  &  **Install Microsoft C++ Build Tools (needed for some Python packages)**
    👉 [Download from python.org](https://www.python.org/downloads/) -- 
-   https://visualstudio.microsoft.com/visual-cpp-build-tools/ (destop development with c++) (make sure the Windows 10 or 11 SDK box is ticked,)
+   https://visualstudio.microsoft.com/visual-cpp-build-tools/ (destop development with c++) (make sure the Windows 10 or 11 SDK box is ticked)
    
-3. **Open PowerShell and create a virtual environment**
+3. **Open PowerShell Clone project repo  and create a virtual environment**
    ```powershell
-   cd "C:\Users\YourName\Documents\LLM_Project"
+   cd "C:\Users\rashe\Documents"
+   git clone https://github.com/Mikailbos/LLM_Project.git
+   cd LLM_Project
    python -m venv venv
    .\venv\Scripts\Activate.ps1
 
