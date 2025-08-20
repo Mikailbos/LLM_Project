@@ -18,7 +18,7 @@ It combines traditional NLP (triplet extraction, clustering) with modern LLMs (F
 
 ## Installation (Windows fresh setup)
 
-1. **Install Python 3.11+**  **Install Microsoft C++ Build Tools (needed for some Python packages)**
+1. **Install Python 3.11+**  &  **Install Microsoft C++ Build Tools (needed for some Python packages)**
    👉 [Download from python.org](https://www.python.org/downloads/)
    https://visualstudio.microsoft.com/visual-cpp-build-tools/ (destop development with c++) (make sure the Windows 10 or 11 SDK box is ticked,)
    
